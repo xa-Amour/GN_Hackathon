@@ -1,18 +1,18 @@
-# GN Hackathon#
-### A GN project in Hackathon and summarized for learning###
+# GN Hackathon
+ A GN project in Hackathon and summarized for learning
 
 
-### Hot to integration ###
-Google 的GN + ninja绝对是最棒的C++构建系统，没有之一。这个 Demo 提供了自动化扫描工具，以及一些非常有用的构建模版来将代码集成到gn中。
+## About
+Google's GN + Ninja is definitely the best C++ build system out there. This Demo provides automated scanning tools, as well as some very useful build templates for integrating code into the GN
 
 
-### 目录结构 ###
+## Organization structure
 ```
-├── README.md # 说明文件
-├── build # 编译输出目录
+├── README.md 
+├── build  # Compile output directory
 │   └── mac
 │       └── x64
-├── build_system # 构建核心代码
+├── build_system  # Core building code
 │   ├── hclient
 │   ├── hclient.bat
 │   ├── buildcommands.py
@@ -26,7 +26,7 @@ Google 的GN + ninja绝对是最棒的C++构建系统，没有之一。这个 De
 │   ├── profile
 │   │   └── default.conf
 │   └── utils.py
-├── demo # 简单的demo
+├── demo  # Simple demo(C++/C)
 │   ├── BUILD.gn
 │   ├── README.md
 │   ├── hello.cc
@@ -35,13 +35,13 @@ Google 的GN + ninja绝对是最棒的C++构建系统，没有之一。这个 De
 │   ├── hello_static.cc
 │   └── hello_static.h
 ```
-### How to use ###
+## How to use
 ```bash
-# 以Mac平台为例
+# Take the Mac platform for example
 ./build_system/hclient gen mac x64 release
 ./build_system/hclient build mac x64 release
-# 执行完以后既可在build/mac/x64 目录中找到编译产物hello
+# The build product hello can be found in the build/ MAC /x64 directory
 
-# 执行
+# Execute
 cd ./build/mac/x64/hello && ./hello
 ```
