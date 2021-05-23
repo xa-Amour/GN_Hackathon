@@ -1,0 +1,6 @@
+# Test SDK GN
+
+static_library("hello_static") { 
+  sources = [
+  ]
+}

@@ -1,0 +1,9 @@
+static_library("talk") {
+  sources = [
+    "talk.cc",
+    "talk.h",
+  ]
+  deps = [
+    "../subtalk:sub_talk"
+  ]
+}

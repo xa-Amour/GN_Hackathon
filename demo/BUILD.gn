@@ -1,0 +1,15 @@
+# Test SDK GN
+
+static_library("hello_static") { 
+  sources = [
+     "hello.cc",
+     "hello_shared.cc",
+     "hello_shared.h",
+     "hello_static.cc",
+     "hello_static.h",
+     "sub_talk.cc",
+     "sub_talk.h",
+     "talk.cc",
+     "talk.h",
+  ]
+}
