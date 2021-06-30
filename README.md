@@ -1,9 +1,9 @@
 # GN Hackathon
- A GN project in Hackathon and summarized for learning
+ A GN project in Hackathon and summarized for learning.
 
 
 ## About
-Google's GN + Ninja is definitely the best C++ build system out there. This Demo provides automated scanning tools, as well as some very useful build templates for integrating code into the GN
+Google's GN + Ninja is definitely the best C++ build system out there. This Demo provides automated scanning tools, as well as some very useful build templates for integrating code into the GN.
 
 
 ## Organization structure
